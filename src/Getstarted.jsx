@@ -64,7 +64,7 @@ function Getstarted() {
       </Col>
 
       <Col xs={12} md={12}>
-      <p>Share your video </p>
+      <p style={{fontFamily:"Sora', sans-serif"}}>Share your video </p>
       
        <Button className='me-1' variant="outline-primary"> <Image fluid src={fb} /> Facebook</Button >
         <Button className='me-1' variant="outline-success">WhatsApp</Button>
