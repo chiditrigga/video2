@@ -29,8 +29,8 @@ function Login() {
           <Col className='mx-auto' style={{maxWidth:"350px"}}>
                <p>Join millions of others in sharing successful moves on HelpMeOut.</p>
           </Col>
-          <Col className='my-3'><Button variant="outline-primary" className='w-100' style={{fontSize:"500"}}><Image src={fb} />Continue with Google</Button></Col>
-          <Col><Button variant="outline-warning" style={{fontSize:"500"}} className='w-100'><Image src={google} />Continue with Facebook</Button></Col>
+          <Col className='my-3'><Button variant="outline-primary" className='w-100' ><Image fluid src={fb} /> <span  style={{fontSize:"500"}}>Continue with Google</span> </Button></Col>
+          <Col><Button variant="outline-warning" style={{fontSize:"500"}} className='w-100'><Image src={google} /> <span style={{fontSize:"500"}}>Continue with Facebook</span> </Button></Col>
           <Col></Col>
           <Col></Col>
           <Col></Col>
