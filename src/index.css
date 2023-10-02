@@ -14,6 +14,7 @@
 
 p{
     font-weight: 400;
+    font-family: 'Inter', sans-serif;
 }
 
 h3{
@@ -22,6 +23,8 @@ h3{
 
 h1{
     font-weight: 700;
+    font-family: 'Sora', sans-serif;
+
 }
 
 .bridge{
@@ -35,6 +38,6 @@ h1{
 }
 
 .but{
-    max-width: 180px;
+    max-width: 250px;
     padding: 10px;
 }

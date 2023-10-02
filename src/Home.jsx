@@ -46,7 +46,7 @@ function Home() {
               className="but"
               style={{
                 background: "rgba(18,11,72,1)",
-                fontWeight: "500px",
+                fontFamily: 'Work Sans, sans-serif',
                 borderColor: "rgba(18,11,72,1)",
               }}
             >
@@ -81,7 +81,7 @@ function Home() {
             <h1 style={{ fontWeight: "700px", color: "rgba(20, 20, 20, 1)" }}>
               Features
             </h1>
-            <p style={{ fontWeight: "400", color: "rgba(97, 97, 99, 1)" }}>
+            <p style={{ fontWeight: "400",fontFamily: 'Work Sans sans-serif',color: "rgba(97, 97, 99, 1)" }}>
               Key Highlights of Our Extension
             </p>
           </Col>
@@ -99,7 +99,7 @@ function Home() {
               </Col>{" "}
               <Col className="" xs={10}>
                 <h3 style={{ fontWeight: "600" }}>Simple Screen Recording</h3>
-                <p>
+                <p style={{fontFamily: 'Work Sans sans-serif'}}>
                   Effortless screen recording for everyone. Record with ease, no
                   tech expertise required.
                 </p>
@@ -112,7 +112,7 @@ function Home() {
               </Col>{" "}
               <Col xs={10}>
                 <h3 style={{ fontWeight: "600px" }}>Easy-to-Share URL</h3>
-                <p>
+                <p style={{fontFamily: 'Work Sans sans-serif'}}>
                   Share your recordings instantly with a single link. No
                   attachments, no downloads.
                 </p>
@@ -124,7 +124,7 @@ function Home() {
               </Col>{" "}
               <Col xs={10}>
                 <h3 style={{ fontWeight: "600px" }}>Revisit Recordings</h3>
-                <p>
+                <p style={{fontFamily: 'Work Sans sans-serif'}}>
                   Access and review your past content effortlessly. Your
                   recordings, always at your fingertips.
                 </p>
@@ -164,7 +164,7 @@ function Home() {
                   <h3>Record Screen</h3>{" "}
                 </Card.Title>
                 <Card.Text>
-                  <p>
+                  <p style={{fontFamily: 'Work Sans sans-serif'}}>
                     Click the "Start Recording" button in our extension. choose
                     which part of your screen to capture and who you want to
                     send it to.
@@ -194,7 +194,7 @@ function Home() {
                   <h3>Share Your Recording</h3>{" "}
                 </Card.Title>
                 <Card.Text>
-                  <p>
+                  <p style={{fontFamily: 'Work Sans sans-serif'}}>
                     We generate a shareable link for your video. Simply send it
                     to your audience via email or copy the link to send via any
                     platform.
@@ -224,7 +224,7 @@ function Home() {
                   <h3>Learn Effortlessly</h3>{" "}
                 </Card.Title>
                 <Card.Text>
-                  <p>
+                  <p style={{fontFamily: 'Work Sans sans-serif'}}>
                     Recipients can access your video effortlessly through the
                     provided link, with our user-friendly interface suitable for
                     everyone.
