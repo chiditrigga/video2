@@ -59,18 +59,14 @@ function Login() {
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label style={{fontWeight:"500"}}>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
-        <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text>
+       
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label style={{fontWeight:"500"}}>Password</Form.Label>
         <Form.Control type="password" placeholder="Password" />
       </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
-      </Form.Group>
+     
       <Button className='w-100' style={{background:"rgba(18, 11, 72, 1)",borderColor:"rgba(18, 11, 72, 1)",fontWeight:"500",color:"rgba(249, 249, 255, 1)"}} type="submit">
         Submit
       </Button>
