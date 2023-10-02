@@ -11,6 +11,7 @@ import Form from 'react-bootstrap/Form';
 import fb from './assets/fb.svg'
 import { Link } from "react-router-dom";
 import main2 from "./assets/main2.svg";
+import tele from "./assets/telegram.svg";
 function Getstarted() {
   
   return (
@@ -64,7 +65,7 @@ function Getstarted() {
 
       <Col xs={12}>
       <p>Share your video </p>
-      <Button variant="outline-primary"> <Image src={fb} /> Facebook</Button >  <Button variant="outline-success">WhatsApp</Button>  <Button variant="outline-info">Telegram</Button>
+      <Button variant="outline-primary"> <Image fluid src={fb} /> Facebook</Button >  <Button variant="outline-success">WhatsApp</Button>  <Button variant="outline-info"> <Image fluid src={tele} /> Telegram</Button>
       </Col>
 
        </Row>
