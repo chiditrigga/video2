@@ -10,6 +10,9 @@ import { createBrowserRouter,
 import Home from './Home'
 import Getstarted from './Getstarted'
 import Login from './Login';
+import VideoList from './VideoList';
+
+
 
 function App() {
   const router = createBrowserRouter(
@@ -22,6 +25,8 @@ function App() {
         <Route path="/Getstarted" element={<Getstarted />} />
 
         <Route path="/Login" element={<Login/>} />
+
+        <Route path="/videos" element={<VideoList />} />
         
        
         

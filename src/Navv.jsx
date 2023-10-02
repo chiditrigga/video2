@@ -22,7 +22,7 @@ function Navv() {
          <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse  id="basic-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link className='' href="#features" style={{fontWeight:"500",color:"black",fontFamily:"'Sora', sans-serif;"}}>  </Nav.Link>
+            <Nav.Link className='' href="#features" style={{fontWeight:"500",color:"black",fontFamily:"'Sora', sans-serif;"}}>Features  </Nav.Link>
             <Nav.Link href="#how" style={{fontWeight:"500",color:"black",fontFamily: 'Work Sans sans-serif'}}>How It Works</Nav.Link>
             
           </Nav>

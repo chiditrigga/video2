@@ -13,9 +13,10 @@ import Image from "react-bootstrap/Image";
 import "./index.css";
 import Button from "react-bootstrap/Button";
 import Form from 'react-bootstrap/Form';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Login() {
+    const navigate = useNavigate()
   return (
     <>
      
@@ -68,7 +69,8 @@ function Login() {
         <Form.Control type="password" placeholder="Password" />
       </Form.Group>
      
-      <Button className='w-100' style={{background:"rgba(18, 11, 72, 1)",borderColor:"rgba(18, 11, 72, 1)",fontWeight:"500",color:"rgba(249, 249, 255, 1)",fontFamily:"Work Sans"}} type="submit">
+      <Button onClick={ (e)=> {e.preventDefault() 
+        navigate("/videos")}} className='w-100' style={{background:"rgba(18, 11, 72, 1)",borderColor:"rgba(18, 11, 72, 1)",fontWeight:"500",color:"rgba(249, 249, 255, 1)",fontFamily:"Work Sans"}} type="submit">
         Sign Up
       </Button>
     </Form>
