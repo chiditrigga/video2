@@ -22,11 +22,11 @@ function Navv() {
          <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse  id="basic-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link className='' href="#features" style={{fontWeight:"500",color:"black"}}>Features</Nav.Link>
-            <Nav.Link href="#how" style={{fontWeight:"500",color:"black"}}>How It Works</Nav.Link>
-           
+            <Nav.Link className='' href="#features" style={{fontWeight:"500",color:"black",fontFamily:"'Sora', sans-serif;"}}>  </Nav.Link>
+            <Nav.Link href="#how" style={{fontWeight:"500",color:"black",fontFamily: 'Work Sans sans-serif'}}>How It Works</Nav.Link>
+            
           </Nav>
-          <span > <Link style={{fontWeight:"600",color:"rgba(18, 11, 72, 1)",textDecoration:"none"}} to="/Getstarted">Get Started</Link> </span> 
+          <span > <Link style={{fontWeight:"600",color:"rgba(18, 11, 72, 1)",textDecoration:"none",fontFamily:"'Sora', sans-serif;"}} to="/Getstarted">Get Started</Link> </span> 
         </Navbar.Collapse>
       
       

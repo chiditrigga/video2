@@ -126,23 +126,23 @@ function Getstarted() {
 
           <Col xs={12} md={3}>
             <h3>Menu</h3>
-            <p>Home</p>
-            <p>Converter</p>
-            <p>How it Works</p>
+            <p style={{fontFamily: 'Work Sans sans-serif'}}>Home</p>
+            <p style={{fontFamily: 'Work Sans sans-serif'}}>Converter</p>
+            <p style={{fontFamily: 'Work Sans sans-serif'}}>How it Works</p>
           </Col>
 
           <Col xs={12} md={3}>
             <h3>About us</h3>
-            <p>About</p>
-            <p>Contact Us</p>
-            <p>Privacy Policy</p>
+            <p style={{fontFamily: 'Work Sans sans-serif'}}>About</p>
+            <p style={{fontFamily: 'Work Sans sans-serif'}}>Contact Us</p>
+            <p style={{fontFamily: 'Work Sans sans-serif'}}>Privacy Policy</p>
           </Col>
 
           <Col xs={12} md={3}>
             <h3>Screen Record</h3>
-            <p>Brower Window</p>
-            <p>Desktop</p>
-            <p>Application</p>
+            <p style={{fontFamily: 'Work Sans sans-serif'}}>Brower Window</p>
+            <p style={{fontFamily: 'Work Sans sans-serif'}}>Desktop</p>
+            <p style={{fontFamily: 'Work Sans sans-serif'}}>Application</p>
           </Col>
         </Row>
       </Container>

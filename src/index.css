@@ -2,7 +2,7 @@
     background-image: url("./assets/dot2.png") !important;
    background-repeat: no-repeat;
  height: 50% !important;
- font: sora;
+ 
     
 }
 
@@ -19,6 +19,8 @@ p{
 
 h3{
     font-weight: 600;
+    font-family: 'Sora', sans-serif;
+
 }
 
 h1{

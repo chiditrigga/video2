@@ -13,6 +13,7 @@ import Image from "react-bootstrap/Image";
 import "./index.css";
 import Button from "react-bootstrap/Button";
 import Form from 'react-bootstrap/Form';
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -21,8 +22,8 @@ function Login() {
     <Container>
 <Row className='pt-5'>
 
-    <Col xs={12} >
-     <Image fluid src={main} /> <span style={{fontWeight:"700",color:"rgba(16, 10, 66, 1)"}}>HelpMeOut</span>
+    <Col xs={12} className='py-3'>
+     <Link to="/" style={{textDecoration:"none"}}><Image fluid src={main} /> <span style={{fontWeight:"700",color:"rgba(16, 10, 66, 1)"}}>HelpMeOut</span></Link>
     </Col>
       
 
