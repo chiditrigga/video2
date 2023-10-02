@@ -97,9 +97,9 @@ function Getstarted() {
      <Container fluid>
       <Row className='py-5 pt-3'>
         <Col xs={12} style={{background:"rgba(231, 231, 237, 0.2)"}} className='text-center '> 
-               <h4 className='mx-auto' style={{maxWidth:"600px"}}>To ensure the availability and privacy of your video, we recommend saving it to your account.</h4>
+               <h4 className='mx-auto py-3 pt-md-5' style={{maxWidth:"600px"}}>To ensure the availability and privacy of your video, we recommend saving it to your account.</h4>
                <Button  style={{fontWeight:"500",background:"rgba(18, 11, 72, 1)",borderColor:"rgba(18, 11, 72, 1)",fontWeight:"500"}}>Save Video</Button>
-               <span><h3 style={{color:"rgba(126, 126, 126, 1)"}}>Don’t have an account? <Link to="/login">Create account</Link> </h3></span>
+               <span><h3 className='py-3' style={{color:"rgba(126, 126, 126, 1)"}}>Don’t have an account? <Link to="/login" style={{color:"rgba(18, 11, 72, 1)"}}>Create account</Link> </h3></span>
         </Col>
       </Row>
      </Container>
