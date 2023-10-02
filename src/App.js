@@ -9,6 +9,7 @@ import { createBrowserRouter,
   } from 'react-router-dom'
 import Home from './Home'
 import Getstarted from './Getstarted'
+import Login from './Login';
 
 function App() {
   const router = createBrowserRouter(
@@ -19,6 +20,8 @@ function App() {
        
        
         <Route path="/Getstarted" element={<Getstarted />} />
+
+        <Route path="/Login" element={<Login/>} />
         
        
         

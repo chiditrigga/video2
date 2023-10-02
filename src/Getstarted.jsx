@@ -10,7 +10,7 @@ import "./index.css";
 import Form from 'react-bootstrap/Form';
 import fb from './assets/fb.svg'
 import { Link } from "react-router-dom";
-
+import main2 from "./assets/main2.svg";
 function Getstarted() {
   
   return (
@@ -89,16 +89,57 @@ function Getstarted() {
 
       </Container>
      <Container fluid>
-      <Row className='py-3'>
+      <Row className='py-5 pt-3'>
         <Col xs={12} style={{background:"rgba(231, 231, 237, 0.2)"}} className='text-center '> 
                <h4 className='mx-auto' style={{maxWidth:"600px"}}>To ensure the availability and privacy of your video, we recommend saving it to your account.</h4>
-               <Button style={{fontWeight:"500"}}>Save Video</Button>
+               <Button style={{fontWeight:"500",background:"rgba(18, 11, 72, 1)",borderColor:"rgba(18, 11, 72, 1)",fontWeight:"500"}}>Save Video</Button>
                <span><h3>Don’t have an account? <Link>Create account</Link> </h3></span>
         </Col>
       </Row>
      </Container>
       
-      
+     <Container fluid>
+        <Row
+          className="p-5 "
+          style={{
+            backgroundColor: "rgba(18, 11, 72, 1)",
+            color: "rgba(255, 255, 255, 1)",
+          }}
+        >
+          <Col xs={12} md={3}>
+            <Row>
+              <Col xs={2}>
+                {" "}
+                <Image className="w-100" src={main2} fluid />{" "}
+              </Col>
+              <Col style={{ color: "rgba(255, 255, 255, 1)" }} xs={10}>
+                <h3>HelpMeOut</h3>
+              </Col>
+            </Row>
+          </Col>
+
+          <Col xs={12} md={3}>
+            <h3>Menu</h3>
+            <p>Home</p>
+            <p>Converter</p>
+            <p>How it Works</p>
+          </Col>
+
+          <Col xs={12} md={3}>
+            <h3>About us</h3>
+            <p>About</p>
+            <p>Contact Us</p>
+            <p>Privacy Policy</p>
+          </Col>
+
+          <Col xs={12} md={3}>
+            <h3>Screen Record</h3>
+            <p>Brower Window</p>
+            <p>Desktop</p>
+            <p>Application</p>
+          </Col>
+        </Row>
+      </Container>
       
       
       
